@@ -5,13 +5,23 @@ const ProjectSection = () =>{
   const projects = [
     { 
       id: 1,
-      title: "Ree",
-      tags: ["AWS", "Clo", "java"],
+      title: "Toohak Interactive Quiz Platform",
+      tags: ["AWS", "TypeScript", "java"],
+      description: "Developed a Kahoot-style quiz platform backend with TypeScript + Node.js + Express.js, supporting user authentication, quiz creation/editing, game sessions, answering flow, and statistics tracking.",
+      fullDescription: ["Designed and implemented core RESTful APIs, including creating/deleting quiz questions, starting a game session, retrieving game status, and fetching current question data.",
+        "Added secure password update logic with permission validation and robust error handling.",
+        "Achieved 95%+ test coverage using Jest + Supertest, improved reliability under GitLab CI/CD."],
+      image: "/task1.jpg",
     },
     {
       id: 2,
-      title: "Re2",
+      title: "Dungeonmania Game Engine Development",
       tags: ["AWS", "Clo"],
+      description: "Developed a grid-based dungeon game engine in Java, supporting entity interaction, combat resolution, item usage, goal evaluation, crafting mechanics, pathfinding and map logic.",
+      fullDescription: ["Improved architecture and maintainability via legacy-code refactor and OOP Design Patterns (Compo-site/Strategy/Factory).",
+        "Refactored crafting module into a rule-engine-style structure, decoupling validation from gameplay logic.",
+        "Shipped features with backward compatibility and JUnit+CI/CD validation."],
+      image: "/task1.jpg",
     },
   ];
 
