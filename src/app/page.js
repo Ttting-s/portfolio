@@ -1,5 +1,4 @@
-import Image from "next/image";
-
+import ProjectSection from "./components/ProjectSection";
 export default function Home() {
   return (
     <div className="container mx-auto p-8 pb-10 sm:p-20 font-sans">
@@ -24,6 +23,7 @@ export default function Home() {
           </button>
         </div>
       </div>
+      <ProjectSection />
     </div>
   );
 }
