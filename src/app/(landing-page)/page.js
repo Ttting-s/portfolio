@@ -1,4 +1,5 @@
 import ProjectSection from "./components/ProjectSection";
+import PostsSection from "./components/PostsSections";
 export default function Home() {
   return (
     <div className="container mx-auto p-8 pb-10 sm:p-20 font-sans">
@@ -24,6 +25,7 @@ export default function Home() {
         </div>
       </div>
       <ProjectSection />
+      <PostsSection />
     </div>
   );
 }
