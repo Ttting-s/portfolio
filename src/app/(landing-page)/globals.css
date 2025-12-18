@@ -63,7 +63,7 @@ body {
   .payload-richtext h6 {
     @apply text-base leading-normal font-semibold mt-4 mb-3 scroll-mt-[100px];
   }
-
+}
   .pattern-bg{
     position: absolute;
     top: -6rem;
@@ -85,4 +85,8 @@ body {
       background-size: 30px 30px;
     }
   }
+
+  .default-fade {
+-webkit-mask: radial-gradient(ellipse 70% 60% at center, rgb(15 23 42) 0%, transparent 70%);
+mask: radial-gradient(ellipse 70% 60% at center, rgb(15 23 42) 0%, transparent 70%);
 }
