@@ -16,11 +16,11 @@ const PostsSection = async () => {
     collection: "posts",
     limit: 2,
     sort: "-createdAt",
-    // where: {
-    //   includedInBlog: {
-    //     equals: true,
-    //   },
-    // },
+    where: {
+      includedInBlog: {
+        equals: true,
+      },
+    },
   });
 
   console.log(posts);

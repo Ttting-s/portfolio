@@ -1,5 +1,6 @@
 import ProjectSection from "./components/ProjectSection";
 import PostsSection from "./components/PostsSections";
+import Link from "next/link";
 export default function Home() {
   return (
     <div className="container mx-auto p-8 pb-10 sm:p-20 font-sans">
@@ -16,9 +17,10 @@ export default function Home() {
           Full stack developer
         </p>
         <div className="flex mt-10 gap-4">
-          <button className="px-8 py-3 rounded-lg bg-(--primary) text-white font-medium hover:bg-purple-400">
+          <Link href={`/posts/3`} 
+          className="px-8 py-3 rounded-lg bg-(--primary) text-white font-medium hover:bg-purple-400">
             About Me
-          </button>
+          </Link>
           <button className="px-8 py-3 rounded-lg border border-gray-600 font-medium hover:bg-purple-400">
             Contact Me
           </button>

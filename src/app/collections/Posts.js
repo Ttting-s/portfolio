@@ -9,5 +9,10 @@ export const Posts = {
       name: "content",
       type: "richText",
     },
+    {
+      name: "includedInBlog",
+      type: "checkbox",
+      defaultValue: true,
+    },
   ],
 }
